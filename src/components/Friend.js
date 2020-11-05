@@ -11,7 +11,7 @@ export default function Friend({ info, action }) {
 }
 
 const StyledFriend = styled.div`
-  color: ${pr.danger ? };
+  color: ${pr => pr};
   font-weight: bold;
   width: 60%;
   display: flex;
