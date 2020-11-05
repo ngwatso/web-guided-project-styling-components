@@ -18,7 +18,7 @@ const StyledFriend = styled.div`
   justify-content: space-between;
 
   button {
-    color: grey;
+    color: ${(pr) => pr.theme.tertiaryColor};
   }
 
   @media (max-width: 550px) {
@@ -26,7 +26,7 @@ const StyledFriend = styled.div`
   }
 
   &:hover {
-    color: green;
+    color: ${(pr) => pr.theme.secondaryColor};
   }
 `;
 
