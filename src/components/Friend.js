@@ -10,4 +10,8 @@ export default function Friend({ info, action }) {
   );
 }
 
-const StyledFriend = styled.div``
+const StyledFriend = styled.div`
+
+
+
+`
