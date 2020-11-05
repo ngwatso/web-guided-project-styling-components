@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export default function Friend({ bold, info, action }) {
   return (
@@ -9,6 +9,10 @@ export default function Friend({ bold, info, action }) {
     </StyledFriend>
   );
 }
+
+const kf = keyframes`
+  
+`
 
 const StyledFriend = styled.div`
   color: ${(pr) => (pr.danger ? pr.theme.danger : pr.theme.primaryColor)};
