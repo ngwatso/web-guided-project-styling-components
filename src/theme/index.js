@@ -4,5 +4,8 @@ export default {
   primaryColor: "royalblue",
   secondaryColor: 'crimson',
   tertiaryColor: 'mediumseagreen',
-  danger: ''
+  danger: 'orange',
+  black: 'black',
+  white: 'white',
+  breakpoint
 };
