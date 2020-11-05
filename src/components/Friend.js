@@ -21,8 +21,9 @@ const StyledFriend = styled.div`
     color: ${(pr) => pr.theme.tertiaryColor};
     &:hover {
       transform: scale(1.1);
-      transition: 
+      transition: transform 0.5s ease-in-out;
     }
+    transition: transform 0.5s ease-in-out;
   }
 
   @media (max-width: 550px) {
