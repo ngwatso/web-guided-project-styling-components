@@ -21,6 +21,10 @@ const StyledFriend = styled.div`
     color: grey;
   }
 
+  @media (max-width: 550px) {
+    width: 100%auto;
+  }
+
   &:hover {
     color: green;
   }
