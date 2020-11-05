@@ -5,7 +5,7 @@ export default function Friend({ info, action }) {
   return (
     <StyledFriend>
       {info.name}
-      <Button onClick={() => action(info.id)}>See details</Button>
+      <button onClick={() => action(info.id)}>See details</button>
     </StyledFriend>
   );
 }
@@ -16,11 +16,15 @@ const StyledFriend = styled.div`
   width: 60%;
   display: flex;
   justify-content: space-between;
-  
+
+  button {
+    color: grey;
+  }
+
   &:hover {
     color: green;
   }
-  `;
+`;
 
 // const Button = styled.button`
 //   color: pink;
