@@ -13,7 +13,7 @@ export default {
     tablet: "(max-width: 800px)",
   },
   padding: {
-      small: '4px',
-      medium: ''
-  }
+    small: "4px",
+    medium: "8px",
+  },
 };
