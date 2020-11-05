@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export default function Friend({ info, action }) {
   return (
-    <StyledFriend >
+    <StyledFriend danger={info.name === "Josh"}>
       {info.name}
       <button onClick={() => action(info.id)}>See details</button>
     </StyledFriend>
