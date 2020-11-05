@@ -10,6 +10,10 @@ export default function Friend({ info, action }) {
   );
 }
 
+const Button = styled.button`
+  color: pink;
+`;
+
 const StyledFriend = styled.div`
   /* color: red; */
   font-weight: bold;
