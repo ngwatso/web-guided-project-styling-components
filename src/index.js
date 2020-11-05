@@ -8,7 +8,7 @@ import "./styles.css";
 
 render(
   <ThemeProvider>
-    
-  </ThemeProvider>
-<App />, document.querySelector("#root")
+    <App />
+  </ThemeProvider>,
+  document.querySelector("#root")
 );
