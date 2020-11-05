@@ -9,3 +9,5 @@ export default function Friend({ info, action }) {
     </div>
   );
 }
+
+const StyledFriend = styled.div
