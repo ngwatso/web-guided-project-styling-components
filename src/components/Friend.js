@@ -28,8 +28,9 @@ const StyledFriend = styled.div`
   &:hover {
     color: ${(pr) => pr.theme.secondaryColor};
     background-color: cyan;
-    transition: all 2.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
+  transition: all 0.5s ease-in-out;
 `;
 
 // const Button = styled.button`
