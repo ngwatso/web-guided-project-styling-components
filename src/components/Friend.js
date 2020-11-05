@@ -11,10 +11,14 @@ export default function Friend({ bold, info, action }) {
 }
 
 const kf = keyframes`
-  
-`
+  100% {
+    opacity: 1;
+    transform: scale(1)
+  }
+`;
 
 const StyledFriend = styled.div`
+  opacity: 0;
   color: ${(pr) => (pr.danger ? pr.theme.danger : pr.theme.primaryColor)};
   font-weight: ${(pr) => (pr.bold ? "bold" : "initial")};
   width: 60%;
