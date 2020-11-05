@@ -19,7 +19,9 @@ const StyledFriend = styled.div`
 
   button {
     color: ${(pr) => pr.theme.tertiaryColor};
-    transform
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 
   @media (max-width: 550px) {
