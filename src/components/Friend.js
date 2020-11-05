@@ -21,6 +21,7 @@ const StyledFriend = styled.div`
     color: ${(pr) => pr.theme.tertiaryColor};
     &:hover {
       transform: scale(1.1);
+      transition: 
     }
   }
 
