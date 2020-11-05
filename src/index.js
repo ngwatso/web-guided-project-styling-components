@@ -6,4 +6,9 @@ import App from "./components/App";
 
 import "./styles.css";
 
-render(<App />, document.querySelector("#root"));
+render(
+  <ThemeProvider>
+    
+  </ThemeProvider>
+<App />, document.querySelector("#root")
+);
