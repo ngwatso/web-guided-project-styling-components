@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { BASE_URL, API_KEY } from '../constants'
 import axios from 'axios'
+import styled from 'styled-components'
+
+const Styled2 = styled.h2`
+  color: ${props => props.theme.secondaryColor};
+  `
 
 export default function Details(props) {
   const { friendId, close } = props
@@ -14,7 +19,7 @@ export default function Details(props) {
 
   return (
     <div className='container'>
-      <h2>Details:</h2>
+      <Styled2>Details:</Styled2>
       {
         details &&
         <>
