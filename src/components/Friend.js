@@ -16,16 +16,19 @@ const StyledFriend = styled.div`
 
     transition: all 0.4s ease-in-out;
   &:hover {
+    transition: all 0.4s ease-in-out;
     background-color: ${props => props.theme.secondaryColor};
   }
 
-  $::before {
-    content: "${props => props.besty ? ":)" : ":("}";
+  &::before {
+    content: "${props => props.besty ? "💚" : "😊"}";
   }
 
   button {
     background-color: ${props => props.theme.tertiaryColor};
-    
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 `
 
